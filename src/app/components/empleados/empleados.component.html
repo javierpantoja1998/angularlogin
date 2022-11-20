@@ -1,0 +1,22 @@
+<div>
+  <table class="table table-bordered table-info">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>APELLIDO</th>
+        <th>OFICIO</th>
+        <th>SALARIO</th>
+        <th>DIRECTOR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of empleados">
+        <td>{{emp.idEmpleado}}</td>
+        <td>{{emp.apellido}}</td>
+        <td>{{emp.oficio}}</td>
+        <td>{{emp.salario}}</td>
+        <td>{{emp.director}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

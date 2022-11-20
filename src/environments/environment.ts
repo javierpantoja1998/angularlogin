@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlEmpleadosLog:"https://apiempleadoscoreoauth.azurewebsites.net/",
+  urlEmpleados:"https://apiempleadosoauth2022.azurewebsites.net/",
+  token:"",
+  nombre:"",
+  contraseña:""
+
 };
 
 /*
