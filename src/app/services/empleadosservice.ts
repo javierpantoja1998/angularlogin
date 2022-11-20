@@ -33,6 +33,12 @@ export class EmpleadosService {
     return this._http.get(url,{headers:header});
   }
 
-
+  // putEmpleado(): Observable<any>{
+  //   //Le pasamos el token como un header
+  //   var header = new HttpHeaders().set("Authorization", "Bearer " +environment.token).set("Content-type", "application/json");
+  //   var request = "api/Empleados";
+  //   var url = environment.urlEmpleadosLog + request;
+  //   return this._http.put(url,{headers:header});
+  // }
 
 }
